@@ -1,0 +1,59 @@
+body{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+#head{
+  font-size: 1in;
+}
+h1{
+    color: black;
+}
+
+p{
+    font-size: 3ch;
+}
+
+table{
+    width: 60%;
+    border: 1px solid;
+    border-collapse: collapse;
+    border-left: solid 2px red;
+}
+th{
+    color: white;
+}
+
+#tr1{
+    color: yellow;
+}
+
+td,th{
+    text-align: center;
+    border: solid 2px lightgrey;
+    padding: 2ch;
+    width: 25%;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border-radius: 2ch;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
+
+button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #997faf;
+}
